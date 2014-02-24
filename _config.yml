@@ -17,4 +17,6 @@ project:
   name: algebra
   github: algebra
   
-markdown: kramdown
+markdown: redcarpet
+redcarpet:
+  extensions: ["no_intra_emphasis", "fenced_code_blocks", "autolink", "strikethrough", "superscript", "with_toc_data"]
