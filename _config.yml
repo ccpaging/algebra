@@ -1,0 +1,20 @@
+pygments: true
+relative_permalinks: false
+url: ccpaging.github.io/algebra
+title: CCPAGING • Algebra self-learing
+description: Get rid of the boilerplate code in properties based configuration.
+google_analytics_id: 
+exclude: ["CNAME", "owner.aeonbits.org.iml", "README", "bin", "build.xml"]
+permalink: /news/:year/:month/:day/:title
+
+author :
+  name : ccpaging
+  email : ccpaging@gmail.com
+  github : ccpaging
+  twitter : ccpaging
+
+project:
+  name: algebra
+  github: algebra
+  
+markdown: kramdown
