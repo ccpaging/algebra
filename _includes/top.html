@@ -14,5 +14,23 @@
   <link rel="stylesheet" href="{{ site.url }}/css/style.css" />
   <link rel="stylesheet" href="{{ site.url }}/css/pygments.css" />
   <link rel="icon" type="image/x-icon" href="{{ site.url }}/favicon.png" />
+
+  <!-- mathjax config similar to math.stackexchange -->
+  <script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+      config: ["MMLorHTML.js"],
+      jax: ["input/TeX"],
+      tex2jax: {
+        inlineMath: [ ['$', '$'] ],
+        displayMath: [ ['$$', '$$']],
+        processEscapes: true,
+        skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
+      },
+      messageStyle: "none",
+        "HTML-CSS": { preferredFont: "TeX", availableFonts: ["STIX","TeX"] }
+    });
+  </script>
+  <script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
+
   <script src="{{ site.url }}/js/modernizr-2.5.3.min.js"></script>
 </head>
