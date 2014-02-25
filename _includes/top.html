@@ -32,24 +32,32 @@
         linebreaks: { automatic:true },
         EqnChunk: (MathJax.Hub.Browser.isMobile ? 10 : 50)
       },
-      TeX: {
-        noUndefined: { 
-          attributes: { 
-            mathcolor: "red", 
-            mathbackground: "#FFEEEE", 
-            mathsize: "90%" 
-          } 
-        }, 
-        Macros: { href: "{}" } 
-      },
       styles: { 
         ".MathJax": {
            color: "#CC5522"
         }
       },
-      messageStyle: "normal"
+       messageStyle: "normal"
     });
-  </script>
+
+     styles: {
+
+  ".MathJax_Display": {
+    "text-align": "center",
+    margin:       "1em 0em"
+  },
+
+  ".MathJax .merror": {
+    "background-color": "#000088",
+    color:   "#FFFFFF",
+    border:  "1px solid #FFFFFF",
+    padding: "1px 3px",
+    "font-style": "normal",
+    "font-size":  "90%"
+  }
+
+}
+ </script>
   <script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
 
 
