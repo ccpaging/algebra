@@ -1,8 +1,8 @@
 pygments: true
 relative_permalinks: false
-url: http://ccpaging.github.io/algebra/
-title: OWNER • Java™ properties reinvented.
-description: Get rid of the boilerplate code in properties based configuration.
+url: http://ccpaging.github.io/algebra
+title: CCPAGING • Algebra.
+description: Algebra self-learning.
 google_analytics_id: 
 exclude: ["CNAME", "README", "bin", "build.xml"]
 permalink: /news/:year/:month/:day/:title
