@@ -20,12 +20,11 @@
     MathJax.Hub.Config({
       config: ["MMLorHTML.js"],
       styles: {
-		".MathJax": { color: "#fff" },
-		".MathJax_SVG svg > g, .MathJax_SVG_Display svg > g": {
-		  fill: "#FFF",
-		  stroke: "#FFF"
-		}
+		".MathJax": { color: "#ddd" }
 	  }
+	  .MathJax_Display {
+color: #FFF !important;
+}
       jax: ["input/TeX"],
       tex2jax: {
         inlineMath: [ ['$', '$'] ],
@@ -33,7 +32,7 @@
         processEscapes: true,
         skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
       },
-      messageStyle: "none",
+      messageStyle: "normal",
         "HTML-CSS": { preferredFont: "TeX", availableFonts: ["STIX","TeX"] }
     });
   </script>
