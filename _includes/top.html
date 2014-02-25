@@ -19,6 +19,13 @@
   <script type="text/x-mathjax-config">
     MathJax.Hub.Config({
       config: ["MMLorHTML.js"],
+      styles: {
+		".MathJax": { color: "#fff" },
+		".MathJax_SVG svg > g, .MathJax_SVG_Display svg > g": {
+		  fill: "#FFF",
+		  stroke: "#FFF"
+		}
+	  }
       jax: ["input/TeX"],
       tex2jax: {
         inlineMath: [ ['$', '$'] ],
