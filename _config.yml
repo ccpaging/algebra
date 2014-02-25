@@ -2,7 +2,7 @@ pygments: true
 relative_permalinks: false
 url: http://ccpaging.github.io/algebra
 title: CCPAGING • Algebra.
-description: Algebra self-learning.
+description: 自学代数.
 google_analytics_id: 
 exclude: ["CNAME", "README", "bin", "build.xml"]
 permalink: /news/:year/:month/:day/:title
