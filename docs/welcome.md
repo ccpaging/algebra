@@ -9,6 +9,8 @@ This site aims to be a comprehensive guide to OWNER. We'll cover topics such as
 getting started with the basic features, the advanced usages, and give you some
 advice on participating in the future development of OWNER itself.
 
+测试数学公式
+
 $y=\cfrac{x^2+1}{\cfrac{1}{x^2+1}+1}$
 
 So what is OWNER, exactly?
