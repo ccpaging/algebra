@@ -3,9 +3,13 @@ relative_permalinks: false
 url: http://ccpaging.github.io/algebra
 title: CCPAGING • Algebra.
 description: Algebra self-learning.
-google_analytics_id: UA-48436988-1
 exclude: ["CNAME", "README", "bin", "build.xml"]
 permalink: /algebra/news/:year/:month/:day/:title/
+
+beian: 
+cnzz: 1000283298
+baidu: 3F25f3fed051d9702ed66879558593b4ee
+google_analytics_id: UA-48436988-1
 
 author :
   name : ccpaging
