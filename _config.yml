@@ -5,7 +5,7 @@ title: CCPAGING • Algebra.
 description: Algebra self-learning.
 google_analytics_id: 
 exclude: ["CNAME", "README", "bin", "build.xml"]
-permalink: /algebra/news/:title/
+permalink: /algebra/news/:year/:month/:day/:title/
 
 author :
   name : ccpaging
