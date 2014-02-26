@@ -2,17 +2,17 @@
   <aside>
     <ul>
       <li class="{% if page.title == 'News' %}current{% endif %}">
-        <a href="{{ post.url }}/news/">All News</a>
+        <a href="{{ site.url }}/news/">All News</a>
       </li>
       <li class="{% if page.title == 'Releases' %}current{% endif %}">
-        <a href="{{ post.url }}/news/releases/">OWNER Releases</a>
+        <a href="{{ site.url }}/news/releases/">OWNER Releases</a>
       </li>
     </ul>
     <h4>Recent Releases</h4>
     <ul>
       {% for post in site.posts limit:5 %}
       <li class="{% if page.title == post.title %}current{% endif %}">
-        <a href="{{ post.url }}">Version {{ post.version }}</a>
+        <a href="{{ site.url }}">Version {{ post.version }}</a>
       </li>
       {% endfor %}
     </ul>
