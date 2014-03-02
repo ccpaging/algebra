@@ -4,7 +4,7 @@ url: http://ccpaging.github.io/algebra
 title: CCPAGING • Algebra.
 description: Algebra self-learning.
 exclude: ["CNAME", "README", "bin", "build.xml"]
-permalink: /algebra/:year/:month/:day/:title/
+permalink: /algebr-/:year-:month-:day-:title/
 
 beian: 
 cnzz: 1000283298
