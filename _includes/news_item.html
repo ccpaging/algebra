@@ -4,12 +4,12 @@
       {{ post.title }}
     </a>
   </h2>
-  <span class="post-category">
+  <span class="post-category" id="test">
     {% for category in post.categories %}
     <span class="label">{{ category }}</span>
     {% endfor %}
   </span>
-  <div class="post-meta" id="{{ post.title }}">
+  <div class="post-meta">
     <span class="post-date">
       {{ post.date | date_to_string }}
     </span>
