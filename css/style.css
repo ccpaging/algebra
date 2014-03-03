@@ -11,6 +11,9 @@
 body {
   font-family: Lato, 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-size: 18px;
+  /* Jekyll
+  font-size: 21px;
+  */
   font-weight: 300;
   color: #552800;
   background: #F8F4E7; 
@@ -397,7 +400,10 @@ article {
   padding: 20px;
   margin: 0 10px;
   box-shadow: 0 3px 10px rgba(0,0,0,.1);
-  font-size: 24px;
+  font-size: 16px;
+  /* Jeklly
+  font-size: 21px;
+  */
 }
 
 @media (max-width: 480px){
@@ -415,7 +421,9 @@ article {
 @media (min-width: 768px){
   article {
     padding: 40px 40px 30px;
+  	/* Jeklly
     font-size: 21px;
+    */
   }
 }
 
