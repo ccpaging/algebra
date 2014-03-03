@@ -693,11 +693,14 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 a {
-  color: #fc0;
-  text-decoration: none;
-  transition: all .25s;
-   -moz-transition: all .25s;
-   -webkit-transition: all .25s;
+	/* jekyll
+  	color: #fc0;
+  	*/
+  	color: #0000a0;
+  	text-decoration: none;
+  	transition: all .25s;
+   	-moz-transition: all .25s;
+   	-webkit-transition: all .25s;
 }
 
 a:hover {
