@@ -14,7 +14,7 @@ body {
   font-weight: 300;
   color: #552800;
   background: #F8F4E7; 
-  /* orig
+  /* Jekyll
   color: #ddd;
   background: #333;
   */
@@ -387,12 +387,18 @@ body > footer a:hover img {
 
 
 article {
-  background: #CCC;
+  background: #EEE;
+  /* Jeklly
+  background: #444;
+  */
   border-radius: 10px;
   padding: 20px;
   margin: 0 10px;
+  font-size: 12px;
+  /* Jeklly
   box-shadow: 0 3px 10px rgba(0,0,0,.1);
   font-size: 16px;
+  */
 }
 
 @media (max-width: 480px){
