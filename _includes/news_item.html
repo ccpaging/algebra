@@ -4,7 +4,7 @@
       {{ post.title }}
     </a>
   </h2>
-  <span class="post-category" id="{{ post.title }}">
+  <span class="post-category" id="{{ post.date | date_to_string }}">
     {% for category in post.categories %}
     <span class="label">{{ category }}</span>
     {% endfor %}
