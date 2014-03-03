@@ -9,7 +9,7 @@
     <span class="label">{{ category }}</span>
     {% endfor %}
   </span>
-  <div class="post-meta">
+  <div class="post-meta" id="{{ post.title }}">
     <span class="post-date">
       {{ post.date | date_to_string }}
     </span>
