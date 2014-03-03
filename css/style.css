@@ -119,10 +119,13 @@ nav li {
 }
 
 .main-nav li.current a {
-  background: #fc0;
-  color: #222;
-  box-shadow: inset 0 1px 0 rgba(255,255,255,.5), 0 1px 5px rgba(0,0,0,.5);
-  text-shadow: 0 1px 0 rgba(255,255,255,.3);
+	/* Jekyll
+  	background: #fc0;
+  	*/
+  	background: #c00;
+  	color: #222;
+  	box-shadow: inset 0 1px 0 rgba(255,255,255,.5), 0 1px 5px rgba(0,0,0,.5);
+  	text-shadow: 0 1px 0 rgba(255,255,255,.3);
 }
 
 .mobile-nav ul {
@@ -132,23 +135,29 @@ nav li {
 }
 
 .mobile-nav a {
-  float: left;
-  width: 100%;
-  background: #333;
-  color: #fc0;
-  text-align: center;
-  text-transform: uppercase;
-  font-size: 14px;
-  font-weight: 800;
-  padding: 5px;
-  border-radius: 5px;
+  	float: left;
+	width: 100%;
+	background: #333;
+	/* Jekyll
+	color: #fc0;
+  	*/
+	color: #c00;
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 14px;
+	font-weight: 800;
+	padding: 5px;
+	border-radius: 5px;
 }
 
 .mobile-nav .current a {
-  background: #fc0;
-  color: #222;
-  box-shadow: inset 0 1px 0 rgba(255,255,255,.5), 0 1px 5px rgba(0,0,0,.5);
-  text-shadow: 0 1px 0 rgba(255,255,255,.3);
+	/* Jekyll
+  	background: #fc0;
+  	*/
+  	background: #c00;
+	color: #222;
+	box-shadow: inset 0 1px 0 rgba(255,255,255,.5), 0 1px 5px rgba(0,0,0,.5);
+	text-shadow: 0 1px 0 rgba(255,255,255,.3);
 }
 
 .mobile-nav li {
@@ -707,7 +716,7 @@ a {
 	/* jekyll
   	color: #fc0;
   	*/
-  	color: #0000a0;
+  	color: #c00;
   	text-decoration: none;
   	transition: all .25s;
    	-moz-transition: all .25s;
