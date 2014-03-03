@@ -724,7 +724,10 @@ a {
 }
 
 a:hover {
-  color: #f90;
+	/* jekyll
+	color: #f90;
+	*/
+	color: #c00;
 }
 
 strong {
