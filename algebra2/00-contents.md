@@ -1,3 +1,11 @@
+---
+layout: docs
+title: 数理化自学丛书第二册－目录
+prev_section: 
+next_section: 
+permalink: /algebra2/00-contents/
+---
+
 目录
 ====
 
