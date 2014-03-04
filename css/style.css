@@ -583,6 +583,7 @@ article h2:first-child {
 .label {
   float: left;
   text-transform: uppercase;
+  color : #fc0;
   font-weight: bold;
   text-shadow: 0 -1px 0 rgba(0,0,0,.5);
 }
