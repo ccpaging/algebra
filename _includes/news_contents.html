@@ -13,7 +13,7 @@
       {% for post in site.posts limit:5 %}
       <li class="{% if page.title == post.title %}current{% endif %}">
           <a href="{{ site.url }}{{ post.url }}">
-              {% if page.title == post.title %}
+              {% if post.version %}
                   Version {{ post.version }}
               {% elseif %}
                   {{ post.date | date:"%Y-%m-%d" }}
