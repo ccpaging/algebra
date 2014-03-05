@@ -7,9 +7,9 @@
 }
 
 /* Used for site index.html */
+/*font-family: Lato, 'Helvetica Neue', Helvetica, Arial, sans-serif;*/
 
 body {
-  /*font-family: Lato, 'Helvetica Neue', Helvetica, Arial, sans-serif;*/
   font-size: 18px;
   font-weight: 300;
   color: #111;
@@ -257,11 +257,11 @@ body > footer a:hover img {
 }
 
 /* Code */
+/*  font-family: Menlo, Consolas, "Courier New", Courier, "Liberation Mono", monospace; */
 
 .quickstart .code {
   display: block;
   padding: 0;
-  font-family: Menlo, Consolas, "Courier New", Courier, "Liberation Mono", monospace;
   line-height: 1.3em;
 }
 
