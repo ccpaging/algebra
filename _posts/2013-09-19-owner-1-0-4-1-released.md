@@ -5,7 +5,6 @@ date: "2013-09-19 00:54:55 +0200"
 author: lviggiano
 version: 1.0.4.1
 categories: [release]
-permalink: /news/2013-09-19-owner-1-0-4-1-released/
 ---
 
 v1.0.4.1 is a bug fix release for v1.0.4 branch.
