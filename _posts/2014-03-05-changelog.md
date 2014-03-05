@@ -15,15 +15,17 @@ Bug Fixed
    For example:
 
 {% highlight html %}
-
 {%raw%}
    <a href="{{ post.url }}">Version {{ post.version }}</a>
+{%endraw%}
+{% endhighlight %}
 
    should be
 
+{% highlight html %}
+{%raw%}
    <a href="{{ site.url }}{{ post.url }}">Version {{ post.version }}</a>
 {%endraw%}
-
 {% endhighlight %}
 
    Otherwise, it will be wrong when site.url like:
