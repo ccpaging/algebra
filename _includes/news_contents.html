@@ -15,7 +15,7 @@
           {% if post.permalink %}
             <a href="{{ site.url }}{{ post.permalink }}">Version {{ post.version }}</a>
           {% else %}
-            <a href="{{ post.url }}">Version {{ post.version }}</a>
+            <a href="{{ site.url }}{{ post.url }}">Version {{ post.version }}</a>
           {% endif %}
 
       </li>
