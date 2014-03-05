@@ -14,15 +14,20 @@ Bug Fixed
    Since post.url do not have domain. The url in news_contents.html and news_contents_mobile.html should be add ``{{ site.url }}`` before.
    For example:
 
-```html
+{% highlight html %}
+
    <a href="{{ post.url }}">Version {{ post.version }}</a>
-```
+
+{% endhighlight %}
+
 
    should be
 
-```html
+{% highlight html %}
+
         <a href="{{ site.url }}{{ post.url }}">Version {{ post.version }}</a>
-```
+
+{% endhighlight %}
 
    Otherwise, it will be wrong when site.url like:
 
