@@ -690,7 +690,7 @@ h1, h2, h3, h4, h5, h6 {
 a {
   color: #00a;
   text-decoration: none;
-  text-shadow: 0 1px 1px rgba(0,0,0,.5);
+  text-shadow: none;
   transition: all .25s;
   -moz-transition: all .25s;
   -webkit-transition: all .25s;
