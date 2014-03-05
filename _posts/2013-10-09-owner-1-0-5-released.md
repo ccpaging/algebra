@@ -5,6 +5,7 @@ date: "2013-10-09 16:25:00 +0200"
 author: ccpaging
 version: 1.0.5
 categories: [release]
+permalink: /news/2013-10-09-owner-1-0-5-released/
 ---
 
 v1.0.5 contains following enhancements and bug fixes.
