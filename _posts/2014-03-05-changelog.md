@@ -14,7 +14,7 @@ Bug Fixed
    Since post.url do not have domain. The url in news_contents.html and news_contents_mobile.html should be add {{ "{{ site.url "}}}} before.  
    For example:
 
-{% highlight html %}
+{% highlight xml %}
 {%raw%}
    <a href="{{ post.url }}">Version {{ post.version }}</a>
 {%endraw%}
@@ -22,7 +22,7 @@ Bug Fixed
 
    should be
 
-{% highlight html %}
+{% highlight xml %}
 {%raw%}
    <a href="{{ site.url }}{{ post.url }}">Version {{ post.version }}</a>
 {%endraw%}
