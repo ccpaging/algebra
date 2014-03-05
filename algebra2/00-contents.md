@@ -12,5 +12,5 @@ permalink: /algebra2/00-contents/
 目录
 ====
 
-[第一章 一元一次方程和可以化为一元一次方程的分式方程](/algebra/algebra2/ch01-01/)
+1. [一元一次方程和可以化为一元一次方程的分式方程](/algebra/algebra2/ch01-01/)
 
