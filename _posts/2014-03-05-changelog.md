@@ -11,21 +11,24 @@ Bug Fixed
 -----
 
  * Fixed news' url.
-   Since post.url do not have domain. The url in news_contents.html and news_contents_mobile.html should be add ``{{ site.url }}`` before.
+   Since post.url do not have domain. The url in news_contents.html and news_contents_mobile.html should be add {{ "{{ site.url "}}}} before.
    For example:
 
 {% highlight html %}
 
+{%raw%}
    <a href="{{ post.url }}">Version {{ post.version }}</a>
+{%endraw%}
 
 {% endhighlight %}
-
 
    should be
 
 {% highlight html %}
 
+{%raw%}
         <a href="{{ site.url }}{{ post.url }}">Version {{ post.version }}</a>
+{%endraw%}
 
 {% endhighlight %}
 
