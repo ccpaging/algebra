@@ -12,8 +12,8 @@
     <ul>
       {% for post in site.posts limit:5 %}
       <li class="{% if page.title == post.title %}current{% endif %}">
-          {% if page.permalink %}
-            <a href="{{ page.permalink }}">Version {{ post.version }}</a>
+          {% if post.permalink %}
+            <a href="{{ post.permalink }}">Version {{ post.version }}</a>
           {% else %}
             <a href="{{ post.url }}">Version {{ post.version }}</a>
           {% endif %}
@@ -21,7 +21,7 @@
       </li>
       {% endfor %}
       <li>
-        <a href="/docs/history/">History »</a>
+        <a href="/algebra/docs/history/">History »</a>
       </li>
     </ul>
   </aside>
