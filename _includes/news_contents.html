@@ -5,14 +5,20 @@
         <a href="{{ site.url }}/news/">所有新闻</a>
       </li>
       <li class="{% if page.title == 'Releases' %}current{% endif %}">
-        <a href="{{ site.url }}/news/releases/">发布</a>
+        <a href="{{ site.url }}/news/releases/">版本发布</a>
       </li>
     </ul>
-    <h4>最近发布</h4>
+    <h4>最近</h4>
     <ul>
       {% for post in site.posts limit:5 %}
       <li class="{% if page.title == post.title %}current{% endif %}">
-          <a href="{{ site.url }}{{ post.url }}">Version {{ post.version }}</a>
+          <a href="{{ site.url }}{{ post.url }}">
+              {% if page.title == post.title %}
+                  Version {{ post.version }}
+              {% elseif %}
+                  {{ post.date | date:"%Y-%m-%d" }}
+              {% endif %}
+          </a>
       </li>
       {% endfor %}
       <li>
