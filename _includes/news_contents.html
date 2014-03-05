@@ -15,7 +15,7 @@
           <a href="{{ site.url }}{{ post.url }}">
               {% if post.version %}
                   Version {{ post.version }}
-              {% elseif %}
+              {% else %}
                   {{ post.date | date:"%Y-%m-%d" }}
               {% endif %}
           </a>
