@@ -1,6 +1,6 @@
 ---
 layout: news_item
-title: "Bug Fixed"
+title: "Changelog"
 date: "2014-03-05 16:25:00 +0200"
 author: ccpaging
 version: 1.0.5
