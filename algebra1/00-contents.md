@@ -1,6 +1,6 @@
 ---
 layout: contents
-title: 代数 第一册
+title: Algebra2
 prev_section: 
 next_section: 
 permalink: /algebra1/00-contents/

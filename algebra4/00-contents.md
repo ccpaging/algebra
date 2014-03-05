@@ -1,6 +1,6 @@
 ---
 layout: contents
-title: 代数 第四册
+title: Algebra4
 prev_section: 
 next_section: 
 permalink: /algebra4/00-contents/

@@ -1,6 +1,6 @@
 ---
 layout: contents
-title: 代数 第三册
+title: Algebra3
 prev_section: 
 next_section: 
 permalink: /algebra3/00-contents/
