@@ -10,8 +10,8 @@ categories: [news]
 Bug Fixed
 -----
 
- * Fixed news' url.
-   Since post.url do not have domain. The url in news_contents.html and news_contents_mobile.html should be add {{ "{{ site.url "}}}} before.
+ * Fixed news' url.  
+   Since post.url do not have domain. The url in news_contents.html and news_contents_mobile.html should be add {{ "{{ site.url "}}}} before.  
    For example:
 
 {% highlight html %}
@@ -27,7 +27,7 @@ Bug Fixed
 {% highlight html %}
 
 {%raw%}
-        <a href="{{ site.url }}{{ post.url }}">Version {{ post.version }}</a>
+   <a href="{{ site.url }}{{ post.url }}">Version {{ post.version }}</a>
 {%endraw%}
 
 {% endhighlight %}
