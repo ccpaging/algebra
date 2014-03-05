@@ -18,15 +18,9 @@ Bug Fixed
 
 {%raw%}
    <a href="{{ post.url }}">Version {{ post.version }}</a>
-{%endraw%}
-
-{% endhighlight %}
 
    should be
 
-{% highlight html %}
-
-{%raw%}
    <a href="{{ site.url }}{{ post.url }}">Version {{ post.version }}</a>
 {%endraw%}
 
