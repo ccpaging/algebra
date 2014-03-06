@@ -1,3 +1,9 @@
+---
+layout: contents
+title: About
+permalink: /about/
+---
+
 数理化自学丛书 代数 在线学习
 =====
 
