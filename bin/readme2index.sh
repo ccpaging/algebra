@@ -17,8 +17,27 @@ title: CCPAGING &bull; Algebra self-learning.
 overview: true
 ---
 
+<section class="intro">
+    <div class="grid">
+        <div class="unit whole center-on-mobiles">
+            <p class="first">{{ site.description }}</p>
+        </div>
+    </div>
+</section>
+
+
+<section class="features">
+    <div class="grid" >
+        <div class="unit four-fifths">
 EOF
 
 ${MD} ${MDFLAGS} ${SOURCE} >> ${TARGET}
+
+cat >> ${TARGET} <<-EOF
+        </div>
+        <div class="clear"></div>    
+    </div>
+</section>
+EOF
 
 echo "== Finished =="
