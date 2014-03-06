@@ -1,7 +1,7 @@
 数理化自学丛书 代数 在线学习
 =====
 
-[直接开始 ...](http://ccpaging.github.io/algebra/)
+[直接开始 ...](http://ccpaging.github.io/algebra/algebra.html)
 
 扫一扫
 ----
