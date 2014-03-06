@@ -1,5 +1,5 @@
 <ul>
-  <li class="{% if page.overview %}current{% elseif page.url contains '/algebra' %}current{% else %}{% endif %}">
+  <li class="{% if page.overview %}current{% elsif page.url contains '/algebra' %}current{% else %}{% endif %}">
     <a href="{{ site.url }}/">主页</a>
   </li>
   <li class="{% if page.author %}current{% endif %}">
