@@ -30,7 +30,7 @@ QQ群 226166807 亲子数学社@我不知道 的群友们。
 
 本项目内容原作者如不愿意在本项目中刊登内容，请及时通知，本人将立即予以删除。
 
-Email: {{ site.author.email }}
+Email: ({{ site.author.email }})
 
 通过捐款支持本书
 ----
@@ -47,6 +47,6 @@ Help us 帮助该项目
 4. 使用 LaTex / LYX 录入整理数学公式。
 5. 其它 ...
 
-请发送电子邮件到 {{ site.author.email }}
+请发送电子邮件到 ({{ site.author.email }})
 
 谢谢！
