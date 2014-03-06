@@ -6,7 +6,7 @@
 扫一扫
 ----
 
-![img](images/qrc.png) 
+![img](img/qrc.png) 
 
 特别鸣谢
 ----
