@@ -12,7 +12,7 @@ permalink: /about/
 扫一扫
 ----
 
-![img](img/qrc.png) 
+![img](/img/qrc.png) 
 
 特别鸣谢
 ----
