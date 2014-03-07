@@ -5,7 +5,9 @@ layout: default
   <section class="docs">
     <div class="grid">
 
-      {% include books_contents_mobile.html %}
+      {% unless page.url contains '/about' %}
+        {% include books_contents_mobile.html %}
+      {% endless %}
 
       <div class="unit four-fifths">
         <article>
@@ -14,7 +16,9 @@ layout: default
         </article>
       </div>
 
-      {% include books_contents.html %}
+      {% unless page.url contains '/about' %}
+        {% include books_contents.html %}
+      {% endless %}
 
       <div class="clear"></div>
 
