@@ -4,6 +4,8 @@ title: About
 permalink: /about/
 ---
 
+{% if page.url %}
+
 数理化自学丛书 代数 在线学习
 =====
 
@@ -13,6 +15,8 @@ permalink: /about/
 ----
 
 ![img](http://ccpaging.github.io/algebra/img/qrc.png) 
+
+{% endif %}
 
 特别鸣谢
 ----
