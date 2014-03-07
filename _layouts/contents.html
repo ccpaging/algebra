@@ -7,8 +7,8 @@ layout: default
 
       {% unless page.url contains '/about' %}
         {% include books_contents_mobile.html %}
-      {% endless %}
-
+      {% endunless %}
+      
       <div class="unit four-fifths">
         <article>
           {{ content }}
@@ -18,7 +18,7 @@ layout: default
 
       {% unless page.url contains '/about' %}
         {% include books_contents.html %}
-      {% endless %}
+      {% endunless %}
 
       <div class="clear"></div>
 
