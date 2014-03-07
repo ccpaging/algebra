@@ -1,0 +1,31 @@
+---
+layout: default
+---
+
+  <section class="docs">
+    <div class="grid">
+
+      {% unless page.url contains '/about' %}
+        {% include pages_contents_mobile.html %}
+      {% endunless %}
+      
+      <div class="unit four-fifths">
+        <article>
+          {{ content }}
+          {% include section_nav.html %}
+        </article>
+      </div>
+
+      {% unless page.url contains '/about' %}
+        {% include pages_contents.html %}
+      {% endunless %}
+
+      <div class="clear"></div>
+
+    </div>
+    <div class="grid">
+      <div class="unit four-fifths center-on-mobiles">
+        {% include comments.html %}
+      </div>
+    </div>
+  </section>

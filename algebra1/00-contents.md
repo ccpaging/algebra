@@ -1,6 +1,6 @@
 ---
-layout: contents
-title: Algebra2
+layout: pages
+title: Algebra1
 prev_section: 
 next_section: 
 permalink: /algebra1/00-contents/
