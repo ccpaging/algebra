@@ -21,7 +21,7 @@ Bug Fixed
 
       MathJax web－font not available
       
-   关闭 web font
+ * 关闭 MathJax web font
    
       webFont: "",
 
