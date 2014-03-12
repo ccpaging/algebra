@@ -2,8 +2,8 @@
 layout: pages
 title: 1.19 有理数的运算顺序
 prev_section: algebra1/ch01-abstract/
-next_section: algebra1/ch01-review-a/
-permalink: /algebra1/ch01-review-b/
+next_section: algebra1/ch01-review-b/
+permalink: /algebra1/ch01-review-a/
 ---
 
 复习题一\ A
