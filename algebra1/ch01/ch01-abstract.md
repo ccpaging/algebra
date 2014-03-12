@@ -1,6 +1,6 @@
 ---
 layout: pages
-title: 1.19 有理数的运算顺序
+title: 本章提要
 prev_section: algebra1/ch01-18/
 next_section: algebra1/ch01-review-a/
 permalink: /algebra1/ch01-abstract/

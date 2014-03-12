@@ -1,12 +1,12 @@
 ---
 layout: pages
-title: 1.19 有理数的运算顺序
+title: 复习题一 A
 prev_section: algebra1/ch01-abstract/
 next_section: algebra1/ch01-review-b/
 permalink: /algebra1/ch01-review-a/
 ---
 
-复习题一\ A
+复习题一 A
 ----
 
 1.  画一根数轴，并在数轴上指出下列各数的对应点：\

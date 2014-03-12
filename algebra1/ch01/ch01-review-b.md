@@ -1,12 +1,12 @@
 ---
 layout: pages
-title: 1.19 有理数的运算顺序
+title: 复习题一 B
 prev_section: algebra1/ch01-review-a/
 next_section: algebra1/ch01-test/
 permalink: /algebra1/ch01-review-b/
 ---
 
-复习题一\ B
+复习题一 B
 ----
 
 1.  $0$是最小的有理数吗？$0$是最小的整数吗？有没有最小的有理数？有没有最小的整数？

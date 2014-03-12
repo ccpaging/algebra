@@ -1,12 +1,12 @@
 ---
 layout: pages
-title: 1.19 有理数的运算顺序
+title: 第一章 测验题
 prev_section: algebra1/ch01-review-b/
 next_section: algebra1/ch00-content/
 permalink: /algebra1/ch01-test/
 ---
 
-第一章\ 测验题
+第一章 测验题
 ----
 
 1.  计算：
