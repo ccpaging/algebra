@@ -12,7 +12,7 @@ Bug Fixed
 
  * 重新设置代码高亮显示风格 [pygments.css](https://raw.github.com/ccpaging/algebra/gh-pages/css/pygments.css)
  
-   参考 <http://demisx.github.io/jekyll/2014/01/13/improve-code-highlighting-in-jekyll.html>
+   参考 [Improve Code Highlighting in a Jekyll-based Blog Site](http://demisx.github.io/jekyll/2014/01/13/improve-code-highlighting-in-jekyll.html)
    
  * pygments 普通字符的颜色设置见 [style.css](https://raw.github.com/ccpaging/algebra/gh-pages/css/style.css)
    
@@ -28,4 +28,4 @@ Bug Fixed
    img { max-width: 100%;}
 {% endhighlight %}
  
-   参考 <http://www.ruanyifeng.com/blog/2012/05/responsive_web_design.html>
+   参考 [自适应网页设计 Responsive Web Design](http://www.ruanyifeng.com/blog/2012/05/responsive_web_design.html)
