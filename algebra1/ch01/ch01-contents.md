@@ -1,6 +1,6 @@
 ---
 layout: pages
-title: Algebra1
+title: 第一章 目录
 prev_section: 
 next_section: 
 permalink: /algebra1/ch01-contents/
