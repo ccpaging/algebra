@@ -14,10 +14,18 @@ Bug Fixed
  
    参考 [Improve Code Highlighting in a Jekyll-based Blog Site](http://demisx.github.io/jekyll/2014/01/13/improve-code-highlighting-in-jekyll.html)
    
- * pygments 普通字符的颜色设置见 [style.css](https://raw.github.com/ccpaging/algebra/gh-pages/css/style.css)
+ * 取消 pygments 普通字符颜色的，详见 [style.css](https://raw.github.com/ccpaging/algebra/gh-pages/css/style.css)
+   
+   参考 GitHub 设置
    
 {% highlight css %}
-   .highlight, p > pre, p > code, p > nobr > code, li > code, h5 > code, .note > code
+  .highlight, p > pre, p > code, p > nobr > code, li > code, h5 > code, .note > code {
+      border: 1px solid #ddd;
+      background-color: #f8f8f8;
+      border-radius: 3px;
+      max-width: 100%;
+      vertical-align: middle;
+   }
 {% endhighlight %}
    
  * 按照自适应网页设计（Responsive Web Design）原则进行修改
