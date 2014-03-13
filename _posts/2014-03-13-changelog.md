@@ -28,12 +28,11 @@ Bug Fixed
    }
 {% endhighlight %}
    
- * 按照自适应网页设计（Responsive Web Design）原则进行修改
+ * 按照 [自适应网页设计 Responsive Web Design](http://www.ruanyifeng.com/blog/2012/05/responsive_web_design.html)
+   原则进行修改
  
    在 style.css 中增加：
    
 {% highlight css %}
    img { max-width: 100%;}
 {% endhighlight %}
- 
-   参考 [自适应网页设计 Responsive Web Design](http://www.ruanyifeng.com/blog/2012/05/responsive_web_design.html)
