@@ -16,7 +16,7 @@ Bug Fixed
    
  * pygments 普通字符的颜色设置见 [style.css](https://raw.github.com/ccpaging/algebra/gh-pages/css/style.css)
    
-{% highlight xml %}
+{% highlight css %}
    .highlight, p > pre, p > code, p > nobr > code, li > code, h5 > code, .note > code
 {% endhighlight %}
    
@@ -24,7 +24,7 @@ Bug Fixed
  
    在 style.css 中增加：
    
-{% highlight xml %}
+{% highlight css %}
    img { max-width: 100%;}
 {% endhighlight %}
  
