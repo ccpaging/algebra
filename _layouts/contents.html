@@ -6,7 +6,7 @@ layout: default
     <div class="grid">
 
       {% unless page.url contains '/about' %}
-        {% include books_contents_mobile.html %}
+        {% include pages_contents_mobile.html %}
       {% endunless %}
       
       <div class="unit four-fifths">
@@ -16,7 +16,7 @@ layout: default
       </div>
 
       {% unless page.url contains '/about' %}
-        {% include books_contents.html %}
+        {% include pages_contents.html %}
       {% endunless %}
 
       <div class="clear"></div>
