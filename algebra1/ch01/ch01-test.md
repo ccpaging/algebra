@@ -2,7 +2,7 @@
 layout: pages
 title: 第一章 测验题
 prev_section: algebra1/ch01-review-b/
-next_section: algebra1/ch00-content/
+next_section: algebra1/00-content/
 permalink: /algebra1/ch01-test/
 ---
 
