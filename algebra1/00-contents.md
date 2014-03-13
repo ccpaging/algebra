@@ -10,3 +10,4 @@ permalink: /algebra1/00-contents/
 ====
 
 1. [有理数](/algebra/algebra1/ch01-01/)
+
