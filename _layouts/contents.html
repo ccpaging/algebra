@@ -5,9 +5,9 @@ layout: default
   <section class="docs">
     <div class="grid">
 
-      {% unless page.url contains '/about' %}
+      {% if page.url contains '/algebra' %}
         {% include pages_contents_mobile.html %}
-      {% endunless %}
+      {% endif %}
       
       <div class="unit four-fifths">
         <article>
@@ -15,9 +15,9 @@ layout: default
         </article>
       </div>
 
-      {% unless page.url contains '/about' %}
+      {% if page.url contains '/algebra' %}
         {% include pages_contents.html %}
-      {% endunless %}
+      {% endif %}
 
       <div class="clear"></div>
 
