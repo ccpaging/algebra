@@ -38,11 +38,10 @@ Tips
  * Markdown 功能说明
    http://kramdown.gettalong.org/syntax.html
    
-~~~ ruby
+{:.ruby}
 def what?
   42
 end
-~~~
 
  * HTML 实体空格用于调整格式：
 
