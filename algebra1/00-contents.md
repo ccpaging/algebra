@@ -1,5 +1,5 @@
 ---
-layout: pages
+layout: contents
 title: Algebra1
 prev_section: 
 next_section: 
