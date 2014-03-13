@@ -37,7 +37,7 @@ permalink: /algebra1/ch01-test/
 
     (2)  $-5-5-8^{2}-3\times(-5)^{2}$；
 
-    (3)  $\Big\{+3\cfrac{1}{2}-\Big[3+5\cfrac{2}{3}\times\Big(-2-\cfrac{2}{17}\Big)\Big]\Big\}^{2}$；
+    (3)  $\Big\\{+3\cfrac{1}{2}-\Big[3+5\cfrac{2}{3}\times\Big(-2-\cfrac{2}{17}\Big)\Big]\Big\\}^{2}$；
 
     (4)  $3\times\Big[5\cfrac{1}{3}-\Big(2\cfrac{1}{2}-4\cfrac{2}{3}\Big)+1\cfrac{1}{2}\Big]-6$.
 
@@ -55,7 +55,7 @@ permalink: /algebra1/ch01-test/
 
     (1)  $3.65\times(-4.78)$，精确到三位有效数字；
 
-    (2)  $-0.341^{2}$，精确到$0.001$.
+    (2)  $-0.341^{2}$，精确到0.001.
 
 5.  (1)  求绝对值大于$2$而小于$5$的所有整数的乘积.
 
