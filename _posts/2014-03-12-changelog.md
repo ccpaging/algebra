@@ -35,6 +35,15 @@ Tips
  * Markdown 格式参考
    <http://kramdown.gettalong.org/quickref.html>
 
+ * Markdown 功能说明
+   http://kramdown.gettalong.org/syntax.html
+   
+~~~ ruby
+def what?
+  42
+end
+~~~
+
  * HTML 实体空格用于调整格式：
 
    1. `&nbsp;` `&160#;` 不断行的空白（1个字符宽度）
