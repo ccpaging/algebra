@@ -13,17 +13,17 @@ Bug Fixed
  * 用中文标点“,；：”代替西文标点“,;:”.  
  * 打开 MathJax 装载提示
  
-      showProcessingMessages: true,
+      `showProcessingMessages: true,`
       
-      messageStyle: "normal"
+      `messageStyle: "normal"`
 
  * 导致 Mathjax 页面装载速度慢的原因是
 
-      MathJax web－font not available
+      `MathJax web－font not available`
       
  * 关闭 MathJax web font
    
-      webFont: "",
+      `webFont: "",`
 
 
 Tips
