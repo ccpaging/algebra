@@ -3,7 +3,7 @@ layout: pages
 title: Algebra1
 prev_section: 
 next_section: 
-permalink: /algebra1/ch01/00-contents/
+permalink: /algebra1/ch01-contents/
 ---
 
 -   有理数

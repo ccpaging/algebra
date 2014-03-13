@@ -1,7 +1,7 @@
 ---
 layout: news_item
 title: "Changelog"
-date: "2014-03-12 12:41:00 +0200"
+date: "2014-03-13 12:41:00 +0200"
 author: ccpaging
 version: 
 categories: [news]
