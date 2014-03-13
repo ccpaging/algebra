@@ -662,11 +662,16 @@ pre, code {
 }
 
 .highlight, p > pre, p > code, p > nobr > code, li > code, h5 > code, .note > code {
-  background: #f8f8f8;
+  margin: 0;
+  border: 1px solid #ddd;
+  background-color: #f8f8f8;
   border-radius: 3px;
-  box-shadow: inset 0 1px 10px rgba(0,0,0,.3),
-    0 1px 0 rgba(255,255,255,.1),
-    0 1px 0 rgba(0,0,0,.5);
+  max-width: 100%;
+  display: inline-block;
+  overflow: auto;
+  vertical-align: middle;
+  line-height: 1.3;
+  padding: 0;
 }
 
 .note code {
