@@ -10,7 +10,6 @@
 /*font-family: Lato, 'Helvetica Neue', Helvetica, Arial, sans-serif;*/
 
 body {
-  font-family: Lato, "Helvetica Neue", Helvetica, Arial, "Microsoft Yahei", "微软雅黑", sans-serif;
   font-size: 18px;
   font-weight: 300;
   color: #111;
@@ -88,8 +87,8 @@ nav li {
 .main-nav li a {
   border-radius: 5px;
   font-weight: 800;
-  font-size: 18px;
-  padding: 0.3em 2em;
+  font-size: 14px;
+  padding: 0.5em 1em;
   text-shadow: none;
   text-transform: uppercase;
   transition: all .25s;
@@ -260,11 +259,11 @@ body > footer a:hover img {
 }
 
 /* Code */
+/*  font-family: Menlo, Consolas, "Courier New", Courier, "Liberation Mono", monospace; */
 
 .quickstart .code {
   display: block;
   padding: 0;
-  font-family: Menlo, Consolas, "Courier New", Courier, "Liberation Mono", monospace;
   line-height: 1.3em;
 }
 
@@ -902,7 +901,7 @@ code.option, code.flag, code.filter, code.output {
 
 .note p {
   font-weight: 400;
-  font-size: .80em;
+  font-size: 1em;
 }
 
 .info {
