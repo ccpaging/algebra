@@ -13,7 +13,7 @@ permalink: /algebra1/ch01-abstract/
 
 2.  有理数的分类：有两种分法.
     
-  (1)
+:   (1)
     
 $$
 \begin{array}{c}
@@ -35,7 +35,7 @@ $$
 \end{cases}
 $$ 
 
-  (2)
+:   (2)
     
 $$
 \begin{array}{c}
